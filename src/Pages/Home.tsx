@@ -1,10 +1,10 @@
-import styled from "styled-components";
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
+import * as S from "../Styles/Home";
+import { Navbar } from "./../Components/Navbar";
 
 export const Home = () => {
-  return <Container></Container>;
+  return (
+    <S.Container>
+      <Navbar />
+    </S.Container>
+  );
 };
